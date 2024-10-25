@@ -13,7 +13,7 @@ Wallabag only updates its config files as part of releases for the wallabag pack
 
 ## How-to:
 
-Go to a folder to which the wallabag user, e.g www-data, has read permission. The second command automatically creates a subfolder and retrieves the files. The folder should be outside the path of wallabag itself, it also should not exposed to the public internet by apache2, nginx, etc:
+Go to a folder to which the wallabag user, e.g www-data, has read permission. The second command automatically creates a subfolder and retrieves the files. The folder should be outside the path of wallabag itself, it also should not beeing exposed to the public internet by apache2, nginx, etc:
 ```
 cd /var/www/
 sudo git clone https://github.com/fivefilters/ftr-site-config
