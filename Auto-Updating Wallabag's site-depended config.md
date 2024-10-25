@@ -9,7 +9,7 @@ Wallabag only updates its config files as part of releases for the wallabag pack
 
 #### Do NOT try to...
 
-...auto-update config files within wallabag's path under `vendor/j0ker/graby-site-config/` this would be overwritten when installing a new wallabag update.
+...auto-update config files directly within wallabag's path under `vendor/j0ker/graby-site-config/`, this would be overwritten when installing a new wallabag update.
 
 ## How-to:
 
